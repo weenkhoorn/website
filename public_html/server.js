@@ -1,5 +1,5 @@
 var http = require('http');
-var splitter = require('./../functions/splitter.js');
+var splitter = require('./../scripts/splitter.js');
 
 
 var postHTML =
