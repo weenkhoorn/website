@@ -1,5 +1,5 @@
 var http = require('http');
-var splitter = require('./../scripts/splitter.js');
+var splitter = require('../scripts/splitter.js');
 
 
 var postHTML =
@@ -22,7 +22,7 @@ http.createServer(function (req, res) {
  
     if (body != '')
     {
-        var hash = formValues(body);
+        var hash = splitter.formValues(body);
  
          console.log("input1 = " + hash["first_name"]);
          console.log("input2 = " + hash["last_name"]);
